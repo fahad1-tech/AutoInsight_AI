@@ -20,8 +20,8 @@
 
 ## Demo
 
-Live demos (after you enable GitHub Pages, see [docs/index.html](docs/index.html)):
-`https://YOUR_USERNAME.github.io/autoinsight-ai/`
+Live demos (see [docs/index.html](docs/index.html)):
+`https://fahad1-tech.github.io/AutoInsight-AI/`
 
 | Churn drivers page | Insights page |
 |---|---|
@@ -34,7 +34,7 @@ A non-churn dataset gets a different set of KPIs automatically:
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/autoinsight-ai.git
+git clone https://github.com/fahad1-tech/AutoInsight-AI.git
 cd autoinsight-ai
 
 python -m venv .venv
@@ -101,7 +101,7 @@ More detail, including how to add your own KPI or insight rule, is in [docs/ARCH
 ## Project structure
 
 ```
-autoinsight-ai/
+AutoInsight_AI/
 ├── autoinsight/
 │   ├── data_loader.py    # CSV loading and column-role detection
 │   ├── eda.py            # missing values, correlations, outliers, trends
