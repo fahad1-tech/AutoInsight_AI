@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autoinsight-ai"
+version = "1.0.0"
+description = "Point it at any CSV and get dataset-specific KPIs, charts, business insights and a navigable HTML dashboard, with a built-in churn analysis mode."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Your Name" }]
+keywords = ["data-analysis", "eda", "churn", "dashboard", "pandas", "analytics", "automation"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+dependencies = [
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+]
+
+[project.optional-dependencies]
+ai = ["anthropic>=0.30"]
+dev = ["pytest>=7"]
+
+[project.scripts]
+autoinsight = "autoinsight.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["autoinsight*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
