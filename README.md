@@ -1,8 +1,8 @@
 # AutoInsight AI
 
-# [![CI](https://github.com/YOUR_USERNAME/autoinsight-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/autoinsight-ai/actions/workflows/ci.yml)
-# ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
-# ![License](https://img.shields.io/badge/license-MIT-green)
+[![CI](https://github.com/fahad1-tech/AutoInsight_AI/actions/workflows/ci.yml/badge.svg)](https://github.com/fahad1-tech/AutoInsight_AI/actions/workflows/ci.yml)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 **Point it at any CSV and get an analyst-style dashboard: KPIs chosen for *that* dataset, charts that suit each column type, business insights with recommended actions, and a built-in churn analysis mode.**
 
